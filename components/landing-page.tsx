@@ -21,15 +21,23 @@ export function LandingPageComponent() {
       <main>
         {/* Hero Section */}
         <section className="container mx-auto px-4 py-20 text-center">
-          <h1 className="text-5xl font-bold mb-6 text-gray-800">Quit Smoking Smarter with AI</h1>
-          <p className="text-xl mb-8 text-gray-600">The world's first AI-powered nicotine patch that adapts to your needs</p>
-          <div className="flex justify-center mb-12">
-            <img src="/nicpatch2.svg?height=300&width=300" alt="Smart Nicotine Patch" className="rounded-lg shadow-lg" />
-          </div>
-          <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white">
-            Pre-order Now
-          </Button>
-        </section>
+  <h1 className="text-5xl font-bold mb-6 text-gray-800">
+    Quit Smoking Smarter with AI
+  </h1>
+  <p className="text-xl mb-8 text-gray-600">
+    The world's first AI-powered nicotine patch that adapts to your needs
+  </p>
+  <div className="flex justify-center mb-12">
+    <img
+      src="smart_patches/nicpatch2.png"
+      alt="Smart Nicotine Patch"
+      className="rounded-lg shadow-lg"
+    />
+  </div>
+  <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white">
+    Pre-order Now
+  </Button>
+</section>
 
         {/* Features Section */}
         <section id="features" className="bg-white py-20">
@@ -161,7 +169,13 @@ export function LandingPageComponent() {
   )
 }
 
-function FeatureCard({ icon, title, description }) {
+interface FeatureCardProps {
+  icon: React.ReactNode;
+  title: string;
+  description: string;
+}
+
+function FeatureCard({ icon, title, description }: FeatureCardProps) {
   return (
     <Card className="text-center">
       <CardContent className="pt-6">
@@ -173,7 +187,13 @@ function FeatureCard({ icon, title, description }) {
   )
 }
 
-function TimelineItem({ step, title, description }) {
+interface TimelineItemProps {
+  step: number;
+  title: string;
+  description: string;
+}
+
+function TimelineItem({ step, title, description }: TimelineItemProps) {
   return (
     <li className="mb-10 ml-6">
       <span className="absolute flex items-center justify-center w-8 h-8 bg-teal-600 rounded-full -left-4 ring-4 ring-white">
@@ -185,7 +205,12 @@ function TimelineItem({ step, title, description }) {
   )
 }
 
-function FaqItem({ question, answer }) {
+interface FaqItemProps {
+  question: string;
+  answer: string;
+}
+
+function FaqItem({ question, answer }: FaqItemProps) {
   return (
     <div className="mb-6">
       <h3 className="flex items-center text-lg font-medium mb-2">
