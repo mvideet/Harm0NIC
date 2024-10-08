@@ -28,11 +28,11 @@ export function LandingPageComponent() {
     The world's first AI-powered nicotine patch that adapts to your needs
   </p>
   <div className="flex justify-center mb-12">
-    <img
+    {/* <img
       src="smart_patches/nicpatch2.png"
       alt="Smart Nicotine Patch"
       className="rounded-lg shadow-lg"
-    />
+    /> */}
   </div>
   <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white">
     Pre-order Now
