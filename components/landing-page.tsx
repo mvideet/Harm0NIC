@@ -25,7 +25,7 @@ export function LandingPageComponent() {
     Quit Smoking Smarter with AI
   </h1>
   <p className="text-xl mb-8 text-gray-600">
-    The world's first AI-powered nicotine patch that adapts to your needs
+    The world&apos;s first AI-powered nicotine patch that adapts to your needs
   </p>
   <div className="flex justify-center mb-12">
     {/* <img
@@ -52,7 +52,7 @@ export function LandingPageComponent() {
               <FeatureCard
                 icon={<Brain className="w-12 h-12 text-teal-600" />}
                 title="AI-Powered Dosing"
-                description="Delivers precise nicotine doses based on your body's needs"
+                description="Delivers precise nicotine doses based on your body&apos;s needs"
               />
               <FeatureCard
                 icon={<Activity className="w-12 h-12 text-teal-600" />}
