@@ -9,11 +9,10 @@ export function LandingPageComponent() {
     <div className="min-h-screen bg-gradient-to-b from-teal-50 to-white">
       <header className="container mx-auto px-4 py-6">
         <nav className="flex justify-between items-center">
-          <div className="text-2xl font-bold text-teal-600">Harm0NIC</div>
+          <div className="text-2xl font-bold text-teal-600">harmONIC</div>
           <div className="space-x-4">
             <a href="#features" className="text-gray-600 hover:text-teal-600">Features</a>
             <a href="#how-it-works" className="text-gray-600 hover:text-teal-600">How It Works</a>
-            <a href="#pricing" className="text-gray-600 hover:text-teal-600">Pricing</a>
           </div>
         </nav>
       </header>
@@ -24,9 +23,6 @@ export function LandingPageComponent() {
   <h1 className="text-5xl font-bold mb-6 text-gray-800">
     Algorithmically-driven Nicotine Cessation Device
   </h1>
-  <p className="text-xl mb-8 text-gray-600">
-    The world&apos;s first AI-powered nicotine patch that adapts to your needs
-  </p>
   <div className="flex justify-center mb-12">
     {/* <img
       src="smart_patches/nicpatch2.png"
@@ -34,9 +30,6 @@ export function LandingPageComponent() {
       className="rounded-lg shadow-lg"
     /> */}
   </div>
-  <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white">
-    Pre-order Now
-  </Button>
 </section>
 
         {/* Features Section */}
@@ -45,14 +38,14 @@ export function LandingPageComponent() {
             <h2 className="text-3xl font-bold mb-12 text-center text-gray-800">Key Features</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <FeatureCard
-                icon={<Watch className="w-12 h-12 text-teal-600" />}
-                title="Apple Watch Integration"
-                description="Syncs with your Apple Watch to gather real-time biometric data"
+                icon={<Brain className="w-12 h-12 text-teal-600" />}
+                title="Accelerated Recovery Times"
+                description="Reduces nicotine dependency much faster than traditional nicotine patches"
               />
               <FeatureCard
                 icon={<Brain className="w-12 h-12 text-teal-600" />}
-                title="AI-Powered Dosing"
-                description="Delivers precise nicotine doses based on your body&apos;s needs"
+                title="Higher Efficacy"
+                description="Higher chance of ending addiction"
               />
               <FeatureCard
                 icon={<Activity className="w-12 h-12 text-teal-600" />}
@@ -74,66 +67,28 @@ export function LandingPageComponent() {
                   title="Connect Devices"
                   description="Pair the patch and your compatible smartwatch with the harmONIC app."
                 />
+                
                 <TimelineItem
                   step={2}
-                  title="Personalize Settings"
-                  description="Input your current nicotine intake and set your desired quitting timeline."
-                />
-                <TimelineItem
-                  step={3}
                   title="Wear Patch"
                   description="Follow the instructions!"
                 />
                 <TimelineItem
-                  step={4}
+                  step={3}
                   title="Track Progress"
                   description="Monitor craving intensity, calculate stress levels, and provide feedback through the app."
                 />
                 <TimelineItem
-                  step={5}
+                  step={4}
                   title="Receive Personalized Support"
                   description="Benefit from AI recommendations, communities of fellow quitters, and healthcare professionals through telehealth services."
                 />
                 <TimelineItem
-                  step={6}
+                  step={5}
                   title="Celebrate Success"
                   description="Track your achievements and milestones as you progress towards a nicotine-free life."
                 />
               </ol>
-            </div>
-          </div>
-        </section>
-
-        {/* Pricing Section */}
-        <section id="pricing" className="bg-white py-20">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-12 text-center text-gray-800">Pricing</h2>
-            <div className="max-w-sm mx-auto">
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-2xl font-bold text-center">Harm0NIC Starter Kit</CardTitle>
-                </CardHeader>
-                <CardContent className="text-center">
-                  <p className="text-4xl font-bold mb-4"></p>
-                  <ul className="text-left mb-6">
-                    <li className="flex items-center mb-2">
-                      <CheckCircle className="w-5 h-5 text-teal-600 mr-2" />
-                      1-month supply of Harm0NICes
-                    </li>
-                    <li className="flex items-center mb-2">
-                      <CheckCircle className="w-5 h-5 text-teal-600 mr-2" />
-                      Free Apple Watch app
-                    </li>
-                    <li className="flex items-center mb-2">
-                      <CheckCircle className="w-5 h-5 text-teal-600 mr-2" />
-                      24/7 customer support
-                    </li>
-                  </ul>
-                  <Button className="w-full bg-teal-600 hover:bg-teal-700 text-white">
-                    Get Started
-                  </Button>
-                </CardContent>
-              </Card>
             </div>
           </div>
         </section>
