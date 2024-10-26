@@ -20,8 +20,11 @@ export function LandingPageComponent() {
         {/* Hero Section */}
         <section className="container mx-auto px-4 py-20 text-center">
           <h1 className="text-5xl font-bold mb-6 text-gray-800">
-            Algorithmically-driven Nicotine Cessation Device
+          harmONIC
           </h1>
+          <p className="text-xl mb-8 text-gray-600">
+          Algorithmically-driven Nicotine Cessation Device
+          </p>
           <div className="flex justify-center mb-12">
             {/* <img
               src="smart_patches/nicpatch2.png"
