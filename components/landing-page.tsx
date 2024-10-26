@@ -1,8 +1,7 @@
 'use client'
 
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { CheckCircle, Watch, Brain, Activity, ChevronDown } from "lucide-react"
+import { Card, CardContent, CardTitle } from "@/components/ui/card"
+import { Brain, Activity, ChevronDown } from "lucide-react"
 
 export function LandingPageComponent() {
   return (
@@ -20,17 +19,17 @@ export function LandingPageComponent() {
       <main>
         {/* Hero Section */}
         <section className="container mx-auto px-4 py-20 text-center">
-  <h1 className="text-5xl font-bold mb-6 text-gray-800">
-    Algorithmically-driven Nicotine Cessation Device
-  </h1>
-  <div className="flex justify-center mb-12">
-    {/* <img
-      src="smart_patches/nicpatch2.png"
-      alt="Smart Nicotine Patch"
-      className="rounded-lg shadow-lg"
-    /> */}
-  </div>
-</section>
+          <h1 className="text-5xl font-bold mb-6 text-gray-800">
+            Algorithmically-driven Nicotine Cessation Device
+          </h1>
+          <div className="flex justify-center mb-12">
+            {/* <img
+              src="smart_patches/nicpatch2.png"
+              alt="Smart Nicotine Patch"
+              className="rounded-lg shadow-lg"
+            /> */}
+          </div>
+        </section>
 
         {/* Features Section */}
         <section id="features" className="bg-white py-20">
@@ -67,7 +66,6 @@ export function LandingPageComponent() {
                   title="Connect Devices"
                   description="Pair the patch and your compatible smartwatch with the harmONIC app."
                 />
-                
                 <TimelineItem
                   step={2}
                   title="Wear Patch"
