@@ -20,11 +20,8 @@ export function LandingPageComponent() {
         {/* Hero Section */}
         <section className="container mx-auto px-4 py-20 text-center">
           <h1 className="text-5xl font-bold mb-6 text-gray-800">
-          harmONIC
+          harmONIC: Algorithmically-driven Nicotine Cessation Device
           </h1>
-          <p className="text-xl mb-8 text-gray-600">
-          Algorithmically-driven Nicotine Cessation Device
-          </p>
           <div className="flex justify-center mb-12">
             {/* <img
               src="smart_patches/nicpatch2.png"
@@ -90,27 +87,6 @@ export function LandingPageComponent() {
                   description="Track your achievements and milestones as you progress towards a nicotine-free life."
                 />
               </ol>
-            </div>
-          </div>
-        </section>
-
-        {/* FAQ Section */}
-        <section className="py-20">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-12 text-center text-gray-800">Frequently Asked Questions</h2>
-            <div className="max-w-3xl mx-auto">
-              <FaqItem
-                question="Is Harm0NIC safe to use?"
-                answer="Yes, Harm0NIC is designed with your safety in mind. It has undergone rigorous testing and is FDA-approved for smoking cessation."
-              />
-              <FaqItem
-                question="How long does each patch last?"
-                answer="Each Harm0NIC is designed to be worn for 24 hours. After that, you should apply a new patch to a different area of skin."
-              />
-              <FaqItem
-                question="Can I use Harm0NIC without an Apple Watch?"
-                answer="While Harm0NIC works best with an Apple Watch for personalized dosing, it can also be used without one. In this case, it will function similarly to a standard nicotine patch."
-              />
             </div>
           </div>
         </section>
