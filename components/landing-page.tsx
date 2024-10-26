@@ -1,7 +1,7 @@
 'use client'
 
 import { Card, CardContent, CardTitle } from "@/components/ui/card"
-import { Brain, Activity, ChevronDown } from "lucide-react"
+import { Brain, Activity } from "lucide-react"
 
 export function LandingPageComponent() {
   return (
