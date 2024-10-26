@@ -22,7 +22,7 @@ export function LandingPageComponent() {
         {/* Hero Section */}
         <section className="container mx-auto px-4 py-20 text-center">
   <h1 className="text-5xl font-bold mb-6 text-gray-800">
-    Quit Smoking Smarter with AI
+    Algorithmically-driven Nicotine Cessation Device
   </h1>
   <p className="text-xl mb-8 text-gray-600">
     The world&apos;s first AI-powered nicotine patch that adapts to your needs
@@ -114,7 +114,7 @@ export function LandingPageComponent() {
                   <CardTitle className="text-2xl font-bold text-center">Harm0NIC Starter Kit</CardTitle>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <p className="text-4xl font-bold mb-4">$99.99</p>
+                  <p className="text-4xl font-bold mb-4"></p>
                   <ul className="text-left mb-6">
                     <li className="flex items-center mb-2">
                       <CheckCircle className="w-5 h-5 text-teal-600 mr-2" />
